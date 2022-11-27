@@ -1,4 +1,4 @@
-package de.uni.koeln.sse.se;
+package exercise1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -31,21 +31,21 @@ public static void main(String[] args) {
                
         
         
-//        Visitor p = new PackingInstructionVisitor();
-//        
-//
-//		p.visitElectronic(microwaveOven);
-//		p.visitElectronic(tv);
-//		
-//        p.visitGlass(wineGlass);
-//        p.visitGlass(coffeeTable);
-//        
-//        p.visitFurniture(bed);
-//        p.visitFurniture(cupboard);
-//
-//        Visitor m = new MovingCostsVisitor();
-//        
-//        
+        Visitor p = new PackingInstructionVisitor();
+        
+
+		p.visitElectronic(microwaveOven);
+		p.visitElectronic(tv);
+		
+        p.visitGlass(wineGlass);
+        p.visitGlass(coffeeTable);
+        
+        p.visitFurniture(bed);
+        p.visitFurniture(cupboard);
+
+        Visitor m = new MovingCostsVisitor();
+        
+        
 
 
 

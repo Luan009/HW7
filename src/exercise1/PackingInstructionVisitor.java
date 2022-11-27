@@ -1,4 +1,4 @@
-package de.uni.koeln.sse.se;
+package exercise1;
 
 public class PackingInstructionVisitor implements Visitor{
 	
